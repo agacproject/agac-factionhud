@@ -15,7 +15,6 @@ RegisterCommand('debughud', function()
 end)
 
 RegisterNetEvent('deniz:load', function()
-    print(GetPlayerStamina(PlayerPedId()))
     local loadData = {
         cash = QBCore.Functions.GetPlayerData().money.cash,
         health = GetEntityHealth(PlayerPedId()) / 2,
