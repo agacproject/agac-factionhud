@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+    display: none;
+    font-family: 'Roboto', sans-serif;
+    --white-color: #fff;
+    --gray-color: #dddddd;
+    --hud-bg: #0e0d0da8;
+}
+
+.vurdumkactimBody {
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+    font-weight: 500;
+}
+
+.vurdumkactimCash {
+    color: var(--white-color);
+    font-size: 16px;
+}
+
+#denizCash {
+    color: var(--gray-color);
+}
+
+.hudBody {
+    display: flex;
+    margin-top: 10px;
+}
+
+.vurdumkactimHudText {
+    color: var(--gray-color);
+}
+
+.vurdumkactimCanHud {
+    width: 120px;
+    height: 15px;
+    background-color: var(--hud-bg);
+    margin-top: 2px;
+    margin-left: 52px;
+}
+
+.vurdumkactimStaminaHud {
+    width: 120px;
+    height: 15px;
+    background-color: var(--hud-bg);
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.vurdumkactimZirhHud {
+    width: 120px;
+    height: 15px;
+    background-color: var(--hud-bg);
+    margin-top: 2px;
+    margin-left: 49px;
+}
+
+.vurdumkactimHudInside {
+    height: 100%;
+    width: 100%;
+    background-color: var(--white-color);
+    transition: 0.8s;
+    font-size: 10px;
+}
