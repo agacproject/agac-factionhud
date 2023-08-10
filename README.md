@@ -1,4 +1,4 @@
-# vurkac-hud
+# deniz-factionhud
 
 Discord: discord.gg/denizwp
 
