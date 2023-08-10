@@ -8,14 +8,14 @@ body {
     --hud-bg: #0e0d0da8;
 }
 
-.vurdumkactimBody {
+.hudBody {
     position: absolute;
     bottom: 4%;
     right: 3%;
     font-weight: 500;
 }
 
-.vurdumkactimCash {
+.hudCash {
     color: var(--white-color);
     font-size: 16px;
 }
@@ -24,16 +24,16 @@ body {
     color: var(--gray-color);
 }
 
-.hudBody {
+.hudsBody {
     display: flex;
     margin-top: 10px;
 }
 
-.vurdumkactimHudText {
+.hudsText {
     color: var(--gray-color);
 }
 
-.vurdumkactimCanHud {
+.hudsCanHud {
     width: 120px;
     height: 15px;
     background-color: var(--hud-bg);
@@ -41,7 +41,7 @@ body {
     margin-left: 52px;
 }
 
-.vurdumkactimStaminaHud {
+.hudsStaminaHud {
     width: 120px;
     height: 15px;
     background-color: var(--hud-bg);
@@ -49,7 +49,7 @@ body {
     margin-left: 15px;
 }
 
-.vurdumkactimZirhHud {
+.hudsZirhHud {
     width: 120px;
     height: 15px;
     background-color: var(--hud-bg);
@@ -57,7 +57,7 @@ body {
     margin-left: 49px;
 }
 
-.vurdumkactimHudInside {
+.hudsHudInside {
     height: 100%;
     width: 100%;
     background-color: var(--white-color);
