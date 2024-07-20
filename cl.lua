@@ -5,16 +5,16 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
     Citizen.CreateThread(function()
         while true do
             Citizen.Wait(1000)
-            TriggerEvent('deniz:load')
+            TriggerEvent('agac-factionhud:load')
         end
     end)
 end)
 
 RegisterCommand('debughud', function()
-    TriggerEvent('deniz:load')
+    TriggerEvent('agac-factionhud:load')
 end)
 
-RegisterNetEvent('deniz:load', function()
+RegisterNetEvent('agac-factionhud:load', function()
     local loadData = {
         cash = QBCore.Functions.GetPlayerData().money.cash,
         health = GetEntityHealth(PlayerPedId()) / 2,
